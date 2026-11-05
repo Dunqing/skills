@@ -1,0 +1,17 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+
+# Local credentials, runtime state, and generated task outputs
+.env
+.env.*
+!.env.example
+/state/
+/artifacts/
+*.log
+
+# Editor and OS files
+.DS_Store
+.idea/
+.vscode/
